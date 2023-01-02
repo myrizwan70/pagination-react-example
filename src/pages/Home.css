@@ -1,0 +1,166 @@
+.mainWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formWrap{
+    
+}
+
+.formWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.formWrap input[type='text']{
+    width: 80%;
+    height: 30px;
+    margin-top: 20px;
+    background-color: lightgray;
+    padding-left: 10px;
+}
+
+.formWrap textarea{
+    width: 80%;
+    height: 60px;
+    margin-top: 20px;
+    background-color: lightgray;
+    padding-left: 10px;
+    
+}
+.formWrapper button{
+    margin-top: 20px;
+    width: 80%;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    background-color: hsl(240, 66%, 55%);
+    border: none;
+    cursor: pointer;
+}
+
+.formWrap input[type='text']:focus{
+    background-color: white;
+}
+
+.formWrap textarea:focus{
+    background-color: white;
+}
+
+.tableWrapper{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    background: gray;
+    margin-bottom: 40px;
+}
+
+.searchBox{
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.tableHeading{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tableHeading > span{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.counter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.counter > span{
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.counter > span:hover{
+background-color: rgb(152, 152, 235);
+color: white;
+}
+
+.active{
+color:blue;
+}
+
+.counter select{
+    background-color: gray;
+}
+.counter label,p{
+    color: blue;
+    font-size: 14px;
+}
+
+table{
+    width: 800px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: gray;
+}
+
+table th {
+    color: white;
+    text-align: left;
+}
+
+table tr td{
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(67, 67, 180);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border-bottom: 1px solid gray;
+}
+tr:hover td{background-color: rgb(55, 55, 173)}
+
+.hide{
+    display: hidden;
+}
